@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sparkling Properties - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="bg-gray-100 font-inter">
-    <nav>
-        <div class="container">
-            <ul class="flex space-x-4 justify-end">
+    <nav class="bg-gray-800 text-white">
+        <div class="container mx-auto py-2 px-4 flex items-center justify-between">
+            <div class="text-lg font-semibold">Sparkling Properties</div>
+            <ul id="mobile-menu" class="hidden md:flex space-x-4">
                 <li><a href="index.html" class="hover:text-indigo-400">Home</a></li>
                 <li><a href="about.html" class="hover:text-indigo-400">About Us</a></li>
                 <li><a href="accommodation.html" class="hover:text-indigo-400">Accommodation</a></li>
@@ -24,57 +27,57 @@
         <p>Your Luxurious Escape in the Heart of Nature</p>
         <a href="contact.html">Enquire Now</a>
     </header>
-        
-<!-- Image Carousel Section -->
-<section class="carousel">
-    <div class="carousel-container">
-        <div class="carousel-slide active">
-            <img src="lodgeext.avif" alt="lodge">
-        </div>
-        <div class="carousel-slide">
-            <img src="UNWIND.avif" alt="unwind">
-        </div>
-        <div class="carousel-slide">
-            <img src="SPA.webp" alt="spa">
-        </div>
-        <div class="carousel-slide">
-            <img src="POOLS.avif" alt="pool">
-        </div>
-        <div class="carousel-slide">
-            <img src="COCKTAILS.avif" alt="drinks">
-        </div>
-        <div class="carousel-slide">
-            <img src="room.jpg" alt="rooms">
-        </div>
-        <div class="carousel-slide">
-            <img src="FLOATINGBF.webp" alt="breakfast">
-        </div>
-        <div class="carousel-slide">
-            <img src="FLOWER BATH.webp" alt="FLOWER">
-        </div>
-        <div class="carousel-slide">
-            <img src="staff.jpg" alt="our staff">
-        </div>
-        <div class="carousel-slide">
-            <img src="istockphoto-1805830086-612x612.webp" alt="game">
-        </div>
-    </div>
-    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-    <button class="next" onclick="changeSlide(1)">&#10095;</button>
-</section>
 
-<footer>
-    <p>&copy; 2023 Sparkling Properties. All rights reserved.</p>
-    <p>
-        Follow us on:
-        <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noopener noreferrer">
-            <span role="img" aria-label="Facebook">📘</span> Facebook
-        </a>
-        |
-        <a href="https://www.instagram.com/yourinstagrampage" target="_blank" rel="noopener noreferrer">
-            <span role="img" aria-label="Instagram">📸</span> Instagram
-        </a>
-    </p>
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="lodgeext.avif" alt="lodge">
+            </div>
+            <div class="carousel-slide">
+                <img src="UNWIND.avif" alt="unwind">
+            </div>
+            <div class="carousel-slide">
+                <img src="SPA.webp" alt="spa">
+            </div>
+            <div class="carousel-slide">
+                <img src="POOLS.avif" alt="pool">
+            </div>
+            <div class="carousel-slide">
+                <img src="COCKTAILS.avif" alt="drinks">
+            </div>
+            <div class="carousel-slide">
+                <img src="room.jpg" alt="rooms">
+            </div>
+            <div class="carousel-slide">
+                <img src="FLOATINGBF.webp" alt="breakfast">
+            </div>
+            <div class="carousel-slide">
+                <img src="FLOWER BATH.webp" alt="flower">
+            </div>
+            <div class="carousel-slide">
+                <img src="staff.jpg" alt="our staff">
+            </div>
+            <div class="carousel-slide">
+                <img src="istockphoto-1805830086-612x612.webp" alt="game">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Sparkling Properties. All rights reserved.</p>
+        <p>
+            Follow us on:
+            <a href="https://www.facebook.com/Nixtrotatrumus"_blank" rel="noopener noreferrer">
+                <span role="img" aria-label="Facebook">📘</span> Facebook
+            </a>
+            |
+            <a href="https://www.instagram.com/nini.w33" target="_blank" rel="noopener noreferrer">
+                <span role="img" aria-label="Instagram">📸</span> Instagram
+            </a>
+        </p>
     </footer>
     <script src="script.js"></script>
 </body>

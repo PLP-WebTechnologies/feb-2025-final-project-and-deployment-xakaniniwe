@@ -13,6 +13,7 @@
                 <li><a href="index.html" class="hover:text-indigo-400">Home</a></li>
                 <li><a href="about.html" class="hover:text-indigo-400">About Us</a></li>
                 <li><a href="accommodation.html" class="hover:text-indigo-400">Accommodation</a></li>
+                <li><a href="Game_Reserve and Spa.html" class="hover:text-indigo-400">Game Reserve and Spa</a></li>
                 <li><a href="reviews.html" class="hover:text-indigo-400">Reviews</a></li>
                 <li><a href="contact.html" class="hover:text-indigo-400">Contact</a></li>
             </ul>
@@ -30,12 +31,11 @@
                     Sparkling Properties offers an unparalleled experience, blending luxury accommodation with the beauty of the African wilderness. Our lodge is designed to provide comfort and tranquility, making it the perfect destination for relaxation and adventure. We are committed to providing exceptional service and creating unforgettable memories for our guests.
                 </p>
             </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1607712617949-8c993d290809" alt="Lodge Interior" class="rounded-lg shadow-lg w-full" />
+            <div class="flex flex-col md:flex-row items-center gap-4">
+                <img src="https://images.unsplash.com/photo-1607712617949-8c993d290809" alt="Lodge Interior" class="rounded-lg shadow-lg w-full md:w-1/2" />
+                <button id="startSlideshow" class="sticker-button md:w-1/2">🐻 Slide Show</button>
             </div>
-            <div class="slideshow-container">
-                <button id="animateButton" class="sticker-button">🐻 Slide Show</button>
-                <div class="slideshow">
+            <div class="slideshow-container md:col-span-2"> <div class="slideshow" id="aboutSlideshow">
                     <div class="slides fade">
                         <img src="animals.avif" alt="Animals" class="slide-img">
                     </div>
@@ -55,6 +55,6 @@
     <footer>
         <p>&copy; 2023 Sparkling Properties. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="about_script.js"></script>
 </body>
 </html>
